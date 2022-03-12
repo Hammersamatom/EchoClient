@@ -9,6 +9,7 @@
 int main(int argc, char* argv[])
 {
     Commandline c_io;
+    c_io.enable_history();
 
     // Error out if there isn't an address to connect to, and a name isn't selected
     if (argc < 3)
